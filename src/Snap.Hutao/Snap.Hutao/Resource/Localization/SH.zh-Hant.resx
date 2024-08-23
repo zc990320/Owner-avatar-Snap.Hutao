@@ -614,7 +614,7 @@
     <value>驗證請求失敗，不是當前登入的帳號</value>
   </data>
   <data name="ServerPassportVerifyRequestSuccess" xml:space="preserve">
-    <value>驗證碼已發送至信箱</value>
+    <value>驗證碼已傳送至信箱</value>
   </data>
   <data name="ServerPassportVerifyRequestUserAlreadyExisted" xml:space="preserve">
     <value>驗證請求失敗，當前電子郵件地址已被註冊</value>
@@ -818,7 +818,7 @@
     <value>存在多個選中的養成計劃</value>
   </data>
   <data name="ServiceDailyNoteNotificationSendExceptionTitle" xml:space="preserve">
-    <value>应用通知发送失败</value>
+    <value>應用通知傳送失敗</value>
   </data>
   <data name="ServiceDailyNoteNotifierActionLaunchGameButton" xml:space="preserve">
     <value>開始遊戲</value>
@@ -1005,22 +1005,22 @@
     <value>在 Unity 日誌檔案中無法找到遊戲路徑</value>
   </data>
   <data name="ServiceGamePackageAdvancedDecodeManifestFailed" xml:space="preserve">
-    <value>清单数据解析失败</value>
+    <value>清單數據解析失敗</value>
   </data>
   <data name="ServiceGamePackageAdvancedDriverNoAvailableFreeSpace" xml:space="preserve">
-    <value>磁盘空间不足，需要 {0}，剩余 {1}</value>
+    <value>磁碟機空間不足，需要 {0}，剩餘 {1}</value>
   </data>
   <data name="ServiceGamePackageAdvancedInstalling" xml:space="preserve">
-    <value>正在安装游戏</value>
+    <value>正在安裝遊戲</value>
   </data>
   <data name="ServiceGamePackageAdvancedPredownloading" xml:space="preserve">
-    <value>正在预下载资源</value>
+    <value>正在預先下載資源</value>
   </data>
   <data name="ServiceGamePackageAdvancedRepairing" xml:space="preserve">
-    <value>正在修复游戏</value>
+    <value>正在修復遊戲</value>
   </data>
   <data name="ServiceGamePackageAdvancedUpdating" xml:space="preserve">
-    <value>正在更新游戏</value>
+    <value>正在更新遊戲</value>
   </data>
   <data name="ServiceGamePackageAdvancedVerifyingIntegrity" xml:space="preserve">
     <value>正在验证游戏完整性</value>
@@ -1035,10 +1035,10 @@
     <value>替換：{0}</value>
   </data>
   <data name="ServiceGamePackageReadLocalPackageVerionFailed" xml:space="preserve">
-    <value>在读取本地 Package Version 时遇到问题，修复游戏可能会有所帮助</value>
+    <value>在讀取本地 Package Version 時遇到問題，修復遊戲可能會有所幫助</value>
   </data>
   <data name="ServiceGamePackageRenameDataFolderFailed" xml:space="preserve">
-    <value>重新命名資料檔案夾名稱失敗</value>
+    <value>重新命名數據資料夾名稱失敗</value>
   </data>
   <data name="ServiceGamePackageRequestPackageVerion" xml:space="preserve">
     <value>正在獲取 Package Version</value>
@@ -1139,8 +1139,11 @@
   <data name="UIXamlControlCachedImageCopyImage" xml:space="preserve">
     <value>複製圖像</value>
   </data>
+  <data name="UIXamlViewSpecializedSophonProgressDefault" xml:space="preserve">
+    <value>正在獲取清單數據</value>
+  </data>
   <data name="UIXamlViewWindowWebView2GeetestHeader" xml:space="preserve">
-    <value>请完成验证</value>
+    <value>請完成驗證</value>
   </data>
   <data name="ViewAchievementHeader" xml:space="preserve">
     <value>成就管理</value>
@@ -1365,7 +1368,7 @@
     <value>{1} 將在實際請求時替換為 challenge</value>
   </data>
   <data name="ViewDialogGeetestCustomUrlSampleDescription3" xml:space="preserve">
-    <value>將會通過 GET 方式對接口發送請求</value>
+    <value>將會通過 GET 方式對接口傳送請求</value>
   </data>
   <data name="ViewDialogGeetestCustomUrlSampleHeader" xml:space="preserve">
     <value>範例</value>
@@ -1488,16 +1491,16 @@
     <value>在此處輸入包含 SToken 字段的 Cookie</value>
   </data>
   <data name="ViewDialogUserMobileCaptchaCaptchaHint" xml:space="preserve">
-    <value>请输入收到的验证码</value>
+    <value>請輸入收到的驗證碼</value>
   </data>
   <data name="ViewDialogUserMobileCaptchaMobileHint" xml:space="preserve">
-    <value>请输入手机号码</value>
+    <value>請輸入手機號碼</value>
   </data>
   <data name="ViewDialogUserMobileCaptchaSendCaptchaAction" xml:space="preserve">
-    <value>发送</value>
+    <value>傳送</value>
   </data>
   <data name="ViewDialogUserMobileCaptchaTitle" xml:space="preserve">
-    <value>手机验证码登录</value>
+    <value>手機驗證碼登入</value>
   </data>
   <data name="ViewDialogUserTitle" xml:space="preserve">
     <value>設定 Cookie</value>
@@ -1791,10 +1794,28 @@
     <value>本地版本: {0}</value>
   </data>
   <data name="ViewModelGamePackagePreVersion" xml:space="preserve">
-    <value>{0} 版本预下载已开启</value>
+    <value>{0} 版本預先下載已開啟</value>
   </data>
   <data name="ViewModelGamePackageRemoteVersion" xml:space="preserve">
     <value>最新版本: {0}</value>
+  </data>
+  <data name="ViewModelGamePakcageOperationCanceled" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="ViewModelGamePakcageOperationCompleteInstall" xml:space="preserve">
+    <value>安裝完成</value>
+  </data>
+  <data name="ViewModelGamePakcageOperationCompletePredownload" xml:space="preserve">
+    <value>預先下載完成</value>
+  </data>
+  <data name="ViewModelGamePakcageOperationCompleteRepair" xml:space="preserve">
+    <value>修複完成</value>
+  </data>
+  <data name="ViewModelGamePakcageOperationCompleteUpdate" xml:space="preserve">
+    <value>更新完成</value>
+  </data>
+  <data name="ViewModelGamePakcageOperationSkipRepair" xml:space="preserve">
+    <value>遊戲完整，無需修復</value>
   </data>
   <data name="ViewModelGuideActionAgreement" xml:space="preserve">
     <value>我已閱讀並同意上方的條款</value>
@@ -1830,7 +1851,7 @@
     <value>匯入失敗</value>
   </data>
   <data name="ViewModelLaunchGameContentCorrupted" xml:space="preserve">
-    <value>当前选中的游戏目录 {0} 已损坏，请手动删除文件夹后重新安装游戏</value>
+    <value>當前選中的遊戲目錄 {0} 已損壞，請手動刪除資料夾後重新安裝遊戲</value>
   </data>
   <data name="ViewModelLaunchGameEnsureGameResourceFail" xml:space="preserve">
     <value>切換伺服器失敗</value>
@@ -2172,7 +2193,7 @@
     <value>免打擾模式</value>
   </data>
   <data name="ViewPageDailyNoteStoredAttendance" xml:space="preserve">
-    <value>长效历练点</value>
+    <value>長效歷練點</value>
   </data>
   <data name="ViewPageDailyNoteVerify" xml:space="preserve">
     <value>驗證當前用戶與角色</value>
@@ -2538,19 +2559,19 @@
     <value>遊戲選項</value>
   </data>
   <data name="ViewPageLaunchGamePackageOperationInstall" xml:space="preserve">
-    <value>安装游戏</value>
+    <value>安裝遊戲</value>
   </data>
   <data name="ViewPageLaunchGamePackageOperationPredownload" xml:space="preserve">
-    <value>預下載</value>
+    <value>預先下載</value>
   </data>
   <data name="ViewPageLaunchGamePackageOperationPredownloadCompleteBadgeContent" xml:space="preserve">
-    <value>已完成预下载</value>
+    <value>已完成預先下載</value>
   </data>
   <data name="ViewPageLaunchGamePackageOperationUpdate" xml:space="preserve">
-    <value>更新游戏</value>
+    <value>更新遊戲</value>
   </data>
   <data name="ViewPageLaunchGamePackageOperationVerify" xml:space="preserve">
-    <value>修复游戏</value>
+    <value>修復遊戲</value>
   </data>
   <data name="ViewPageLaunchGamePlayTimeDescription" xml:space="preserve">
     <value>在遊戲啟動後嘗試啟動並使用 Starward 進行遊戲時長統計</value>
@@ -2574,7 +2595,7 @@
     <value>完整包</value>
   </data>
   <data name="ViewPageLaunchGameResourcePreDownloadHeader" xml:space="preserve">
-    <value>預下載</value>
+    <value>預先下載</value>
   </data>
   <data name="ViewPageLaunchGameSelectGamePath" xml:space="preserve">
     <value>選擇遊戲路徑</value>
@@ -2616,7 +2637,7 @@
     <value>调整视野</value>
   </data>
   <data name="ViewPageLaunchGameUnlockFpsDescription" xml:space="preserve">
-    <value>请在游戏内关闭「垂直同步」选项，需要高性能的显卡以支持更高的帧率，将值设置为 -1 以表示无限制帧率</value>
+    <value>請在遊戲內關閉「垂直同步」選項，需要高性能的顯示卡以支持更高的 FPS ，將值設定為 -1 以表示無限制 FPS</value>
   </data>
   <data name="ViewPageLaunchGameUnlockFpsHeader" xml:space="preserve">
     <value>解鎖 FPS 限制</value>
@@ -2631,7 +2652,7 @@
     <value>当出现错误代码 31-4302 时请启用此选项，启用后将禁止调整视野与迷雾，仅在启动游戏前切换此开关才会生效</value>
   </data>
   <data name="ViewPageLaunchGameUnlockFpsLoopAdjustFpsOnlyHeader" xml:space="preserve">
-    <value>兼容模式</value>
+    <value>相容模式</value>
   </data>
   <data name="ViewPageLaunchGameUnlockFpsOff" xml:space="preserve">
     <value>停用</value>
@@ -2649,7 +2670,7 @@
     <value>請輸入您的 HoYoLAB UID</value>
   </data>
   <data name="ViewPageLoginMihoyoUserDescription" xml:space="preserve">
-    <value>你正在通過由我們提供的內嵌網頁視圖登錄 米哈游通行证，我們會在你點擊 我已登錄 按鈕後，讀取你的 Cookie 信息，由此視圖發起的網絡通信只發生於你的計算機與米哈遊服務器之間</value>
+    <value>你正在通過由我們提供的內嵌網頁視圖登錄 米哈游通行证，我們會在你點擊 我已登入 按鈕後，讀取你的 Cookie 信息，由此視圖發起的網絡通信只發生於你的計算機與米哈遊服務器之間</value>
   </data>
   <data name="ViewPageLoginMihoyoUserLoggedInAction" xml:space="preserve">
     <value>我已登入</value>
@@ -2658,7 +2679,7 @@
     <value>在下方登入米哈游通行证</value>
   </data>
   <data name="ViewPageOpenScreenshotFolderAction" xml:space="preserve">
-    <value>開啟截圖檔案夾</value>
+    <value>開啟截圖資料夾</value>
   </data>
   <data name="ViewPageResetGamePathAction" xml:space="preserve">
     <value>選定遊戲路徑</value>
@@ -2697,7 +2718,7 @@
     <value>圖片快取 存放在此</value>
   </data>
   <data name="ViewPageSettingCacheFolderHeader" xml:space="preserve">
-    <value>快取 檔案夾</value>
+    <value>快取 資料夾</value>
   </data>
   <data name="ViewPageSettingCardHutaoPassportHeader" xml:space="preserve">
     <value>胡桃通行證</value>
@@ -2727,7 +2748,7 @@
     <value>用戶數據/元數據 存放在此</value>
   </data>
   <data name="ViewPageSettingDataFolderHeader" xml:space="preserve">
-    <value>數據 檔案夾</value>
+    <value>數據 資料夾</value>
   </data>
   <data name="ViewPageSettingDeleteCacheAction" xml:space="preserve">
     <value>刪除</value>
@@ -2904,7 +2925,7 @@
     <value>自定義背景圖片，支援 bmp / gif / ico / jpg / jpeg / png / tiff / webp 格式</value>
   </data>
   <data name="ViewPageSettingOpenBackgroundImageFolderHeader" xml:space="preserve">
-    <value>打開背景圖片檔案夾</value>
+    <value>打開背景圖片資料夾</value>
   </data>
   <data name="ViewPageSettingResetAction" xml:space="preserve">
     <value>重設</value>
@@ -3090,7 +3111,7 @@
     <value>刪除轉換伺服器快取</value>
   </data>
   <data name="ViewSettingFolderViewOpenFolderAction" xml:space="preserve">
-    <value>打開檔案夾</value>
+    <value>打開資料夾</value>
   </data>
   <data name="ViewSettingHeader" xml:space="preserve">
     <value>設定</value>
@@ -3201,7 +3222,7 @@
     <value>網頁登入</value>
   </data>
   <data name="ViewUserCookieOperationLoginMobileCaptchaAction" xml:space="preserve">
-    <value>手机验证码</value>
+    <value>手機驗證碼</value>
   </data>
   <data name="ViewUserCookieOperationLoginQRCodeAction" xml:space="preserve">
     <value>掃描 QR 碼以登入</value>
@@ -3265,6 +3286,12 @@
   </data>
   <data name="ViewWikiWeaponHeader" xml:space="preserve">
     <value>武器資料</value>
+  </data>
+  <data name="ViewWindowScriptingExecute" xml:space="preserve">
+    <value>執行</value>
+  </data>
+  <data name="ViewWindowScriptingTitle" xml:space="preserve">
+    <value>執行偵錯指令碼</value>
   </data>
   <data name="WebAnnouncementTimeDaysBeginFormat" xml:space="preserve">
     <value>{0} 天後開始</value>
